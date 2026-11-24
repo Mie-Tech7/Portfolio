@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Josh Sutton Portfolio</title>
+<meta name="description" content="Case studies by Josh Sutton: AI native products and client systems built from discovery to go live.">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="index" aria-label="Case studies">
+  <div class="wrap">
+    <a class="index-name" id="index-name" href="#top">Josh Sutton</a>
+    <div class="index-links" id="index-links"></div>
+  </div>
+</nav>
+
+<main id="top">
+  <header class="wrap hero">
+    <p class="eyebrow" id="person-name">Josh Sutton</p>
+    <h1 id="headline">I turn a business's real workflow into working software, from the first discovery call to go live.</h1>
+    <p class="sub" id="sub"></p>
+    <div class="contact" id="contact"></div>
+    <p class="method" id="method"></p>
+  </header>
+
+  <section class="wrap map" aria-labelledby="map-label">
+    <h2 class="section-label" id="map-label">Where each case study shows the work</h2>
+    <div class="map-scroll"><table id="map-table"></table></div>
+    <div class="map-legend">
+      <span><span class="dot on" aria-hidden="true"></span> Shown in a build checked against its code</span>
+      <span><span class="dot designed" aria-hidden="true"></span> Design or product lead, code not reviewed</span>
+    </div>
+  </section>
+
+  <div id="cases"></div>
+</main>
+
+<footer>
+  <div class="wrap"><span id="footer-name">Josh Sutton</span>. Claims checked against each project's code or live site, November 2026.</div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Screenshot">
+  <button type="button" id="lightbox-close">Close</button>
+  <img id="lightbox-img" alt="">
+  <p id="lightbox-cap"></p>
+</dialog>
+
+<script src="projects.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
